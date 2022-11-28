@@ -1,0 +1,86 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 20, Errors: 0, Skipped: 7, Time elapsed: 29.24 s <<< FAILURE! - in TestSuite
+checkContentLength(com.employeeapi.testCases.TC001_Get_All_Employees)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.NumberFormatException: Cannot parse null string
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentLength(TC001_Get_All_Employees.java:111)
+
+checkContentType(com.employeeapi.testCases.TC001_Get_All_Employees)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [null]
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType(TC001_Get_All_Employees.java:78)
+
+checkServerType(com.employeeapi.testCases.TC001_Get_All_Employees)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx] but found [nginx/1.21.6]
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkServerType(TC001_Get_All_Employees.java:89)
+
+checkContentEncoding(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: expected [br] but found [gzip]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentEncoding(TC002_Get_Single_Employee_Record.java:101)
+
+checkContentLength(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NumberFormatException: Cannot parse null string
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentLength(TC002_Get_Single_Employee_Record.java:112)
+
+checkContentType(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [null]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentType(TC002_Get_Single_Employee_Record.java:79)
+
+checkResponseBody(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkResponseBody(TC002_Get_Single_Employee_Record.java:35)
+
+checkServerType(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx] but found [nginx/1.21.6]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkServerType(TC002_Get_Single_Employee_Record.java:90)
+
+checkStatusCode(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkStatusCode(TC002_Get_Single_Employee_Record.java:46)
+
+checkStatusLine(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkStatusLine(TC002_Get_Single_Employee_Record.java:68)
+
+checkContentEncoding(com.employeeapi.testCases.TC003_Post_Employee_Records)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: expected [br] but found [null]
+	at com.employeeapi.testCases.TC003_Post_Employee_Records.checkContentEncoding(TC003_Post_Employee_Records.java:119)
+
+checkContentType(com.employeeapi.testCases.TC003_Post_Employee_Records)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [null]
+	at com.employeeapi.testCases.TC003_Post_Employee_Records.checkContentType(TC003_Post_Employee_Records.java:97)
+
+checkServerType(com.employeeapi.testCases.TC003_Post_Employee_Records)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx] but found [Apache]
+	at com.employeeapi.testCases.TC003_Post_Employee_Records.checkServerType(TC003_Post_Employee_Records.java:108)
+
+checkContentEncoding(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [br] but found [gzip]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentEncoding(TC004_Put_Employee_Record.java:112)
+
+checkContentType(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [null]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentType(TC004_Put_Employee_Record.java:90)
+
+checkResponseBody(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkResponseBody(TC004_Put_Employee_Record.java:55)
+
+checkServerType(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx] but found [Apache]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkServerType(TC004_Put_Employee_Record.java:101)
+
+checkStatusCode(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusCode(TC004_Put_Employee_Record.java:68)
+
+checkStatusLine(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusLine(TC004_Put_Employee_Record.java:79)
+
+createEmployee(com.employeeapi.testCases.TC005_Delete_Employee_Record)  Time elapsed: 0.94 s  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.createEmployee(TC005_Delete_Employee_Record.java:36)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.createEmployee(TC005_Delete_Employee_Record.java:36)
+

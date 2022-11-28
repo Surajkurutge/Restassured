@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="29.24" tests="37" errors="0" skipped="7" failures="20">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\PawanQA\eclipse-workspace\RestAssuredAPIEmployee\target\test-classes;C:\Users\PawanQA\eclipse-workspace\RestAssuredAPIEmployee\target\classes;C:\Users\PawanQA\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\PawanQA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\PawanQA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\PawanQA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\PawanQA\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\PawanQA\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\PawanQA\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\PawanQA\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\PawanQA\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\PawanQA\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\PawanQA\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\PawanQA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\PawanQA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\PawanQA\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\PawanQA\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\PawanQA\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\PawanQA\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\PawanQA\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\PawanQA\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\PawanQA\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\PawanQA\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\PawanQA\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\PawanQA\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\PawanQA\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\PawanQA\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\PawanQA\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\PawanQA\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\PawanQA\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\PawanQA\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\PawanQA\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\PawanQA\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\PawanQA\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\PawanQA\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\PawanQA\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\PawanQA\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\PawanQA\AppData\Local\Temp\surefire5241032362449795008\surefirebooter14947161953294650422.jar C:\Users\PawanQA\AppData\Local\Temp\surefire5241032362449795008 2022-10-12T18-32-44_710-jvmRun1 surefire13164317383058915092tmp surefire_0840780331733293533tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\PawanQA\eclipse-workspace\RestAssuredAPIEmployee\target\test-classes;C:\Users\PawanQA\eclipse-workspace\RestAssuredAPIEmployee\target\classes;C:\Users\PawanQA\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\PawanQA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\PawanQA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\PawanQA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\PawanQA\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\PawanQA\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\PawanQA\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\PawanQA\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\PawanQA\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\PawanQA\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\PawanQA\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\PawanQA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\PawanQA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\PawanQA\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\PawanQA\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\PawanQA\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\PawanQA\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\PawanQA\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\PawanQA\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\PawanQA\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\PawanQA\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\PawanQA\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\PawanQA\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\PawanQA\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\PawanQA\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\PawanQA\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\PawanQA\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\PawanQA\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\PawanQA\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\PawanQA\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\PawanQA\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\PawanQA\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\PawanQA\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\PawanQA\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\PawanQA\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\PawanQA\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\PawanQA"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.3.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\PawanQA\eclipse-workspace\RestAssuredAPIEmployee"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\PawanQA\AppData\Local\Temp\surefire5241032362449795008\surefirebooter14947161953294650422.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="user.name" value="PawanQA"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\PawanQA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PawanQA\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.3.1"/>
+    <property name="user.dir" value="C:\Users\PawanQA\eclipse-workspace\RestAssuredAPIEmployee"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\PawanQA\AppData\Local\Android\Sdk\tools;C:\Users\PawanQA\AppData\Local\Android\Sdk\tools\bin;C:\Users\PawanQA\AppData\Local\Android\Sdk\platform-tools;C:\Users\PawanQA\AppData\Local\Microsoft\WindowsApps;C:\Users\PawanQA\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="checkContentEncoding" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.013"/>
+  <testcase name="checkContentLength" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.024">
+    <failure message="Cannot parse null string" type="java.lang.NumberFormatException">java.lang.NumberFormatException: Cannot parse null string
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentLength(TC001_Get_All_Employees.java:111)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:32:54 TC001_Get_All_Employees.java INFO  [main] EmployeesRestAPI 106 - ************ Check Content Length ************
+10-12-2022 18:32:54 TC001_Get_All_Employees.java INFO  [main] EmployeesRestAPI 109 - Content Length is ==> null
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.017">
+    <failure message="expected [text/html; charset=UTF-8] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [null]
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType(TC001_Get_All_Employees.java:78)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:32:54 TC001_Get_All_Employees.java INFO  [main] EmployeesRestAPI 73 - ************ Checking Content Type ************
+10-12-2022 18:32:54 TC001_Get_All_Employees.java INFO  [main] EmployeesRestAPI 76 - Content Type is ==> null
+]]></system-out>
+  </testcase>
+  <testcase name="checkCookies" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.005"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.032"/>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.005"/>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.004">
+    <failure message="expected [nginx] but found [nginx/1.21.6]" type="java.lang.AssertionError">java.lang.AssertionError: expected [nginx] but found [nginx/1.21.6]
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkServerType(TC001_Get_All_Employees.java:89)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:32:54 TC001_Get_All_Employees.java INFO  [main] EmployeesRestAPI 84 - ************ Check Server Type ************
+10-12-2022 18:32:54 TC001_Get_All_Employees.java INFO  [main] EmployeesRestAPI 87 - Server Type is ==> nginx/1.21.6
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.002"/>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.005"/>
+  <testcase name="checkContentEncoding" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.01">
+    <failure message="expected [br] but found [gzip]" type="java.lang.AssertionError">java.lang.AssertionError: expected [br] but found [gzip]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentEncoding(TC002_Get_Single_Employee_Record.java:101)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:32:54 TC001_Get_All_Employees.java INFO  [main] EmployeesRestAPI 127 - ************ Finished TC001 Get_All_Employees ************
+10-12-2022 18:32:54 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 19 - ******** Started TC002_Get_Single_Employees_Record **********
+10-12-2022 18:32:54 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 161 - Get connection for route {}->http://dummy.restapiexample.com:80
+10-12-2022 18:32:54 DefaultClientConnectionOperator.java DEBUG [main] conn.DefaultClientConnectionOperator 177 - Connecting to dummy.restapiexample.com:80
+10-12-2022 18:32:54 RequestAddCookies.java DEBUG [main] protocol.RequestAddCookies 123 - CookieSpec selected: ignoreCookies
+10-12-2022 18:32:54 RequestAuthCache.java DEBUG [main] protocol.RequestAuthCache 77 - Auth cache not set in the context
+10-12-2022 18:32:54 RequestTargetAuthentication.java DEBUG [main] protocol.RequestTargetAuthentication 80 - Target auth state: UNCHALLENGED
+10-12-2022 18:32:54 RequestProxyAuthentication.java DEBUG [main] protocol.RequestProxyAuthentication 89 - Proxy auth state: UNCHALLENGED
+10-12-2022 18:32:54 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 677 - Attempt 1 to execute request
+10-12-2022 18:32:54 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 274 - Sending request: GET /api/v1/employee/5803 HTTP/1.1
+10-12-2022 18:32:54 Wire.java DEBUG [main] http.wire 73 -  >> "GET /api/v1/employee/5803 HTTP/1.1[\r][\n]"
+10-12-2022 18:32:54 Wire.java DEBUG [main] http.wire 73 -  >> "Accept: */*[\r][\n]"
+10-12-2022 18:32:54 Wire.java DEBUG [main] http.wire 73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+10-12-2022 18:32:54 Wire.java DEBUG [main] http.wire 73 -  >> "Connection: Keep-Alive[\r][\n]"
+10-12-2022 18:32:54 Wire.java DEBUG [main] http.wire 73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+10-12-2022 18:32:54 Wire.java DEBUG [main] http.wire 73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10-12-2022 18:32:54 Wire.java DEBUG [main] http.wire 73 -  >> "[\r][\n]"
+10-12-2022 18:32:54 DefaultClientConnection.java DEBUG [main] http.headers 278 - >> GET /api/v1/employee/5803 HTTP/1.1
+10-12-2022 18:32:54 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Accept: */*
+10-12-2022 18:32:54 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Host: dummy.restapiexample.com
+10-12-2022 18:32:54 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Connection: Keep-Alive
+10-12-2022 18:32:54 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+10-12-2022 18:32:54 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Accept-Encoding: gzip,deflate
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "HTTP/1.1 429 Too Many Requests[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Content-Encoding: gzip[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Date: Wed, 12 Oct 2022 13:02:55 GMT[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Display: staticcontent_sol[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Expires: Tue, 11 Oct 2022 13:02:55 GMT[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Pagespeed: off[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Response: 429[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Retry-After: 40[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Server: nginx/1.21.6[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Vary: Accept-Encoding,User-Agent,Origin[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "X-Endurance-Cache-Level: 2[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "X-Middleton-Display: staticcontent_sol[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "X-Middleton-Response: 429[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "X-Nginx-Cache: WordPress[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "X-Origin-Cache-Control: no-cache, private[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "X-Ratelimit-Remaining: 57[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "X-Ratelimit-Reset: 1665579815[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "X-Sol: pub_site[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "Transfer-Encoding: chunked[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 259 - Receiving response: HTTP/1.1 429 Too Many Requests
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 262 - << HTTP/1.1 429 Too Many Requests
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Content-Encoding: gzip
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Content-Type: text/html; charset=UTF-8
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Date: Wed, 12 Oct 2022 13:02:55 GMT
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Display: staticcontent_sol
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Expires: Tue, 11 Oct 2022 13:02:55 GMT
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Pagespeed: off
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Response: 429
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Retry-After: 40
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Server: nginx/1.21.6
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Vary: Accept-Encoding,User-Agent,Origin
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Endurance-Cache-Level: 2
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ezoic-Cdn: Miss
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Middleton-Display: staticcontent_sol
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Middleton-Response: 429
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Nginx-Cache: WordPress
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Origin-Cache-Control: no-cache, private
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ratelimit-Limit: 60
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ratelimit-Remaining: 57
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ratelimit-Reset: 1665579815
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Sol: pub_site
+10-12-2022 18:32:55 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Transfer-Encoding: chunked
+10-12-2022 18:32:55 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 504 - Connection can be kept alive indefinitely
+10-12-2022 18:32:55 HTTPBuilder.java DEBUG [main] internal.RestAssuredHttpBuilder 553 - Parsing response as: text/html; charset=UTF-8
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "244[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x9c]UOs[0x9b]>[0x10][0xbd][0xfb]Sl[0xf4];[0xe4][0x12][0x5];[0xbf][0xd6][0x93][0x12]p[0xf][0xfd]s[0xeb][0x9f]is[0xe9]Q[0x91][0x16][0xd8]FHTZ;v;[0xfd][0xee][0x1d]L[0x12]c [0x99]Nu[0x81][0x9d][0xf7][0xf6][0xe9]iw[0x5][0xd9][0xc9][0xdb]Oo[0xae][0xbf]}~[0x7][0x15][0xd7]v5[0xcb][0xda][0x7]X[0xe5][0xca]\[0xa0][0x13][0xab][0x19][0x0]@V[0xa1]2[0xdd][0xeb]>[0xac][0x91][0x15][0xe8]J[0x85][0x88][0x9c][0x8b]5[0x17][0xf2]R[0xc]a[0xa7]j[0xcc][0xc5][0x86][0xf0][0xae][0xf1][0x81][0x5]h[0xef][0x18][0x1d][0xe7][0xe2][0x8e][0xc]W[0xb9][0xc1][\r]i[0x94][0xfb][0xe0][0xc][0xc8][0x11][0x93][0xb2]2je1_[0x88][0xd5][0xec][0xa0][0xc6][0xc4][0x16]W[0xd7][0xde][0xc3][0x7][0xe5]v[0xf0][0x5][0xac]1r[0xcc][0x92][0xe][0xe8]1O[0xa4][0x84][0xf7][0xde]q[0x4]){v,[0xb9][[0x8]hsa\[0x94]M[0xc0][0x2]YW[0x2][0xaa][0x80]E.[0x92][0xa4]hS[0xce][0xcb][0xc8][0x8a]I[0x9f]k_[0x8b]ar[0xc7][0xac][0x98][0x9b][0x98]>[0xf2][0xbd]/-[0xaa][0x86]b[0x9b][0x92][0xe8][0x18]_[0x17][0xaa]&[0xbb][0xcb]?[0xae][0x1d][0xb1][0x17][0xdd][0x96][0x91]w[0x16]c[0x85][0xc8]bh[0xf5][0xeb][0x1e]:[0xf6][0xba][0xa7][0x1f][0xe2]v[0xb5][\r]9[0x83][0x1b]ov[0xf0][0xeb][0x8]h[0xd7][0x8d][0xd2][0xb7]e[0xf0]kg[0xa4][0xf6][0xd6][0x87][0x14][0xfe]+[0x8a][0xe2]j[0xc4]{[0x0][0x97][0xff]/o[0x96][0x13]x{&[0xd9][0xf9]O[0xe1][0xb4];[0xc1][0xe9][0x19]D[0xe5][0xa2][0x8c][0x18][0xe8][0xa9][0x94];[0xa4][0xb2][0xe2][0x14][0x16][0xf3][0xf9][0x98]Q[0x1d][0xc0]M5[0x86]k[0x15]Jr)[0xc]2[0xcf][0x8e][0xc2][0xf3]bm[0xad][0xec][0xa4]&[\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 87 -  << "[0xf0][0xcc][0x1e]#![0x8b][[0xa9][0xd1]1[0x86][0x9]!e[0xa9]t[0x92][0x18][0xeb][0x98]B[0xc7][0x1a][6[0x14][0x1b][0xab]v)[0xb4]Zc[0xf8][0xfb]:2[0x15];y?[0xeb][0xd3]:C[[0x8d][0x8f][0xc4][0xe4][0x9d][0xc]XL[0xf8]z[0x80][0xd3]v[0x9e][0x14][0xd3][0x6][0x9f][0x97][0xd3][0xde][0xe0][0xd4][0xa0][0xf8]`0[0xc8][0xd0]U[0xeb][0xa2][0xd9]B[0xf4][0x96][0xcc][0x13]m[0x8d][0xf4][0x13]S[0xb8]X6[0x13][0x87]l[0x94]1[0xe4][0xca][0x14][0xe6][0xb0]x[0xd9]l[0xef][0x1f]c[0x1e][0xe3][0x96][0xe5][0xbe][0xaa]W[0x87][0x1a]cT[0xe5][0x94][0xf7][0x9e][0xa5][0xc5][0xe5][0xbf]m[0xf5][0xf0][0x96]%[0xbd][0x1b][0x96]%[0x87][0xef]Z[0xd6]^[0xb0][0xde]E4[0xb4][0x1]mU[0x8c][0xb9][0xe8][0xcf][0xcd]Q[0xb3]z[0x93])[0x8e][0xef]l?[0xbd]m[0xc8][0x0]n[0xd7][0x8b][0x8b]WG[0x19][0x89][0xa1][0xcd]j[0xf6][0xa4][0xca]}u[0x4][0xec][0xfd][0xe7][0xe2][0xb1][0xb][0x8b]y[0xb3][0xbd][0x9a][0xd0][0x1f]}0'v[0x9b][0x8][0xb3][0xa4]+D[0x96]t[0xff][0x83]?[0x0][0x0][0x0][0xff][0xff]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "d[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 87 -  << "[0x1][0x0][0x0][0xff][0xff]e[0x9e][0xd3][0xfd] [0x6][0x0][0x0]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "0[\r][\n]"
+10-12-2022 18:32:55 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:32:55 HTTPBuilder.java DEBUG [main] internal.RestAssuredHttpBuilder 556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 96 - ************ Check Content Encoding ************
+10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 99 - Content Encoding is ==> gzip
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Could not read configuration file [Log4j.properties].
+java.io.FileNotFoundException: Log4j.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:372)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:403)
+	at com.employeeapi.base.TestBase.setup(TestBase.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+log4j:ERROR Ignoring configuration file [Log4j.properties].
+]]></system-err>
+  </testcase>
+  <testcase name="checkContentLength" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.01">
+    <failure message="Cannot parse null string" type="java.lang.NumberFormatException">java.lang.NumberFormatException: Cannot parse null string
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentLength(TC002_Get_Single_Employee_Record.java:112)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 107 - ************ Check Content Length ************
+10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 110 - Content Length is ==> null
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.007">
+    <failure message="expected [text/html; charset=UTF-8] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [null]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentType(TC002_Get_Single_Employee_Record.java:79)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 74 - ************ Checking Content Type ************
+10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 77 - Content Type is ==> null
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.033">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkResponseBody(TC002_Get_Single_Employee_Record.java:35)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 31 - ************ Checking Response Body ************
+10-12-2022 18:33:00 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@161f6623
+10-12-2022 18:33:00 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 225 - Connection can be kept alive indefinitely
+10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 34 - Response Body ==> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.003"/>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.004">
+    <failure message="expected [nginx] but found [nginx/1.21.6]" type="java.lang.AssertionError">java.lang.AssertionError: expected [nginx] but found [nginx/1.21.6]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkServerType(TC002_Get_Single_Employee_Record.java:90)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 85 - ************ Check Server Type ************
+10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 88 - Server Type is ==> nginx/1.21.6
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.007">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkStatusCode(TC002_Get_Single_Employee_Record.java:46)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 41 - ************ Checking Status Code ************
+10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 44 - Status Code is ==> 429
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.005">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkStatusLine(TC002_Get_Single_Employee_Record.java:68)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 63 - ************ Checking Status Line ************
+10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 66 - Status Line is ==> HTTP/1.1 429 Too Many Requests
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentEncoding" classname="com.employeeapi.testCases.TC003_Post_Employee_Records" time="0.007">
+    <failure message="expected [br] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [br] but found [null]
+	at com.employeeapi.testCases.TC003_Post_Employee_Records.checkContentEncoding(TC003_Post_Employee_Records.java:119)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:00 TC002_Get_Single_Employee_Record.java INFO  [main] EmployeesRestAPI 118 - ************ Finished TC002_Get_Single_Employees_Record ************
+10-12-2022 18:33:00 TC003_Post_Employee_Records.java INFO  [main] EmployeesRestAPI 29 - ******** Started TC003_Post_Employee_Records **********
+10-12-2022 18:33:00 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 161 - Get connection for route {}->http://dummy.restapiexample.com:80
+10-12-2022 18:33:00 DefaultClientConnectionOperator.java DEBUG [main] conn.DefaultClientConnectionOperator 177 - Connecting to dummy.restapiexample.com:80
+10-12-2022 18:33:00 RequestAddCookies.java DEBUG [main] protocol.RequestAddCookies 123 - CookieSpec selected: ignoreCookies
+10-12-2022 18:33:00 RequestAuthCache.java DEBUG [main] protocol.RequestAuthCache 77 - Auth cache not set in the context
+10-12-2022 18:33:00 RequestTargetAuthentication.java DEBUG [main] protocol.RequestTargetAuthentication 80 - Target auth state: UNCHALLENGED
+10-12-2022 18:33:00 RequestProxyAuthentication.java DEBUG [main] protocol.RequestProxyAuthentication 89 - Proxy auth state: UNCHALLENGED
+10-12-2022 18:33:00 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 677 - Attempt 1 to execute request
+10-12-2022 18:33:00 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 274 - Sending request: POST /api/v1/create HTTP/1.1
+10-12-2022 18:33:00 Wire.java DEBUG [main] http.wire 73 -  >> "POST /api/v1/create HTTP/1.1[\r][\n]"
+10-12-2022 18:33:00 Wire.java DEBUG [main] http.wire 73 -  >> "Accept: */*[\r][\n]"
+10-12-2022 18:33:00 Wire.java DEBUG [main] http.wire 73 -  >> "Content-Type: application/json[\r][\n]"
+10-12-2022 18:33:00 Wire.java DEBUG [main] http.wire 73 -  >> "Content-Length: 44[\r][\n]"
+10-12-2022 18:33:00 Wire.java DEBUG [main] http.wire 73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+10-12-2022 18:33:00 Wire.java DEBUG [main] http.wire 73 -  >> "Connection: Keep-Alive[\r][\n]"
+10-12-2022 18:33:00 Wire.java DEBUG [main] http.wire 73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+10-12-2022 18:33:00 Wire.java DEBUG [main] http.wire 73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10-12-2022 18:33:00 Wire.java DEBUG [main] http.wire 73 -  >> "[\r][\n]"
+10-12-2022 18:33:00 DefaultClientConnection.java DEBUG [main] http.headers 278 - >> POST /api/v1/create HTTP/1.1
+10-12-2022 18:33:00 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Accept: */*
+10-12-2022 18:33:00 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Content-Type: application/json
+10-12-2022 18:33:00 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Content-Length: 44
+10-12-2022 18:33:00 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Host: dummy.restapiexample.com
+10-12-2022 18:33:00 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Connection: Keep-Alive
+10-12-2022 18:33:00 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+10-12-2022 18:33:00 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Accept-Encoding: gzip,deflate
+10-12-2022 18:33:00 Wire.java DEBUG [main] http.wire 87 -  >> "{"name":"Johns","salary":"GtboC","age":"lO"}"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "HTTP/1.1 200 OK[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "Cache-Control: no-cache, private, max-age=21600[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "Content-Type: application/json[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "Date: Wed, 12 Oct 2022 13:03:01 GMT[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "Display: staticcontent_sol[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "Expires: Wed, 12 Oct 2022 19:03:01 GMT[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "Response: 200[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "Server: Apache[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "Vary: Accept-Encoding,Origin[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "X-Endurance-Cache-Level: 2[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "X-Middleton-Display: staticcontent_sol[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "X-Middleton-Response: 200[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "X-Nginx-Cache: WordPress[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "X-Origin-Cache-Control: no-cache, private[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "X-Ratelimit-Remaining: 58[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "X-Sol: pub_site[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "Content-Length: 131[\r][\n]"
+10-12-2022 18:33:01 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 259 - Receiving response: HTTP/1.1 200 OK
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 262 - << HTTP/1.1 200 OK
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Cache-Control: no-cache, private, max-age=21600
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Content-Type: application/json
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Date: Wed, 12 Oct 2022 13:03:01 GMT
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Display: staticcontent_sol
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Expires: Wed, 12 Oct 2022 19:03:01 GMT
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Response: 200
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Server: Apache
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Vary: Accept-Encoding,Origin
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Endurance-Cache-Level: 2
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ezoic-Cdn: Miss
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Middleton-Display: staticcontent_sol
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Middleton-Response: 200
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Nginx-Cache: WordPress
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Origin-Cache-Control: no-cache, private
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ratelimit-Limit: 60
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ratelimit-Remaining: 58
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Sol: pub_site
+10-12-2022 18:33:01 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Content-Length: 131
+10-12-2022 18:33:01 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 504 - Connection can be kept alive indefinitely
+10-12-2022 18:33:01 HTTPBuilder.java DEBUG [main] internal.RestAssuredHttpBuilder 553 - Parsing response as: application/json
+10-12-2022 18:33:01 HTTPBuilder.java DEBUG [main] internal.RestAssuredHttpBuilder 556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+10-12-2022 18:33:06 TC003_Post_Employee_Records.java INFO  [main] EmployeesRestAPI 114 - ************ Check Content Encoding ************
+10-12-2022 18:33:06 TC003_Post_Employee_Records.java INFO  [main] EmployeesRestAPI 117 - Content Encoding is ==> null
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Could not read configuration file [Log4j.properties].
+java.io.FileNotFoundException: Log4j.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:372)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:403)
+	at com.employeeapi.base.TestBase.setup(TestBase.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+log4j:ERROR Ignoring configuration file [Log4j.properties].
+]]></system-err>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC003_Post_Employee_Records" time="0.009">
+    <failure message="expected [text/html; charset=UTF-8] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [null]
+	at com.employeeapi.testCases.TC003_Post_Employee_Records.checkContentType(TC003_Post_Employee_Records.java:97)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:06 TC003_Post_Employee_Records.java INFO  [main] EmployeesRestAPI 92 - ************ Checking Content Type ************
+10-12-2022 18:33:06 TC003_Post_Employee_Records.java INFO  [main] EmployeesRestAPI 95 - Content Type is ==> null
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC003_Post_Employee_Records" time="0.007"/>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC003_Post_Employee_Records" time="0.013">
+    <failure message="expected [nginx] but found [Apache]" type="java.lang.AssertionError">java.lang.AssertionError: expected [nginx] but found [Apache]
+	at com.employeeapi.testCases.TC003_Post_Employee_Records.checkServerType(TC003_Post_Employee_Records.java:108)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:06 TC003_Post_Employee_Records.java INFO  [main] EmployeesRestAPI 103 - ************ Check Server Type ************
+10-12-2022 18:33:06 TC003_Post_Employee_Records.java INFO  [main] EmployeesRestAPI 106 - Server Type is ==> Apache
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC003_Post_Employee_Records" time="0"/>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC003_Post_Employee_Records" time="0.004"/>
+  <testcase name="checkContentEncoding" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.002">
+    <failure message="expected [br] but found [gzip]" type="java.lang.AssertionError">java.lang.AssertionError: expected [br] but found [gzip]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentEncoding(TC004_Put_Employee_Record.java:112)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:06 TC003_Post_Employee_Records.java INFO  [main] EmployeesRestAPI 125 - ************ Finished TC003 Post_Employee_Records ************
+10-12-2022 18:33:06 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 29 - ******** Started TC004_Put_Employee_Record **********
+10-12-2022 18:33:06 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 161 - Get connection for route {}->http://dummy.restapiexample.com:80
+10-12-2022 18:33:06 DefaultClientConnectionOperator.java DEBUG [main] conn.DefaultClientConnectionOperator 177 - Connecting to dummy.restapiexample.com:80
+10-12-2022 18:33:06 RequestAddCookies.java DEBUG [main] protocol.RequestAddCookies 123 - CookieSpec selected: ignoreCookies
+10-12-2022 18:33:06 RequestAuthCache.java DEBUG [main] protocol.RequestAuthCache 77 - Auth cache not set in the context
+10-12-2022 18:33:06 RequestTargetAuthentication.java DEBUG [main] protocol.RequestTargetAuthentication 80 - Target auth state: UNCHALLENGED
+10-12-2022 18:33:06 RequestProxyAuthentication.java DEBUG [main] protocol.RequestProxyAuthentication 89 - Proxy auth state: UNCHALLENGED
+10-12-2022 18:33:06 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 677 - Attempt 1 to execute request
+10-12-2022 18:33:06 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 274 - Sending request: PUT /api/v1/update/5803 HTTP/1.1
+10-12-2022 18:33:06 Wire.java DEBUG [main] http.wire 73 -  >> "PUT /api/v1/update/5803 HTTP/1.1[\r][\n]"
+10-12-2022 18:33:06 Wire.java DEBUG [main] http.wire 73 -  >> "Accept: */*[\r][\n]"
+10-12-2022 18:33:06 Wire.java DEBUG [main] http.wire 73 -  >> "Content-Type: application/json[\r][\n]"
+10-12-2022 18:33:06 Wire.java DEBUG [main] http.wire 73 -  >> "Content-Length: 44[\r][\n]"
+10-12-2022 18:33:06 Wire.java DEBUG [main] http.wire 73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+10-12-2022 18:33:06 Wire.java DEBUG [main] http.wire 73 -  >> "Connection: Keep-Alive[\r][\n]"
+10-12-2022 18:33:06 Wire.java DEBUG [main] http.wire 73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+10-12-2022 18:33:06 Wire.java DEBUG [main] http.wire 73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10-12-2022 18:33:06 Wire.java DEBUG [main] http.wire 73 -  >> "[\r][\n]"
+10-12-2022 18:33:06 DefaultClientConnection.java DEBUG [main] http.headers 278 - >> PUT /api/v1/update/5803 HTTP/1.1
+10-12-2022 18:33:06 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Accept: */*
+10-12-2022 18:33:06 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Content-Type: application/json
+10-12-2022 18:33:06 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Content-Length: 44
+10-12-2022 18:33:06 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Host: dummy.restapiexample.com
+10-12-2022 18:33:06 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Connection: Keep-Alive
+10-12-2022 18:33:06 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+10-12-2022 18:33:06 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Accept-Encoding: gzip,deflate
+10-12-2022 18:33:06 Wire.java DEBUG [main] http.wire 87 -  >> "{"name":"JohnB","salary":"QmiFo","age":"cn"}"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "HTTP/1.1 429 Too Many Requests[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Content-Encoding: gzip[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Date: Wed, 12 Oct 2022 13:03:07 GMT[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Display: staticcontent_sol[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Expires: Tue, 11 Oct 2022 13:03:07 GMT[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Pagespeed: off[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Response: 429[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Retry-After: 54[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Server: Apache[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Vary: Accept-Encoding,Origin[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "X-Endurance-Cache-Level: 2[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "X-Middleton-Display: staticcontent_sol[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "X-Middleton-Response: 429[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "X-Nginx-Cache: WordPress[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "X-Origin-Cache-Control: no-cache, private[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "X-Ratelimit-Remaining: 57[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "X-Ratelimit-Reset: 1665579841[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "X-Sol: pub_site[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "Transfer-Encoding: chunked[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 259 - Receiving response: HTTP/1.1 429 Too Many Requests
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 262 - << HTTP/1.1 429 Too Many Requests
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Content-Encoding: gzip
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Content-Type: text/html; charset=UTF-8
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Date: Wed, 12 Oct 2022 13:03:07 GMT
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Display: staticcontent_sol
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Expires: Tue, 11 Oct 2022 13:03:07 GMT
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Pagespeed: off
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Response: 429
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Retry-After: 54
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Server: Apache
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Vary: Accept-Encoding,Origin
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Endurance-Cache-Level: 2
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ezoic-Cdn: Miss
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Middleton-Display: staticcontent_sol
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Middleton-Response: 429
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Nginx-Cache: WordPress
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Origin-Cache-Control: no-cache, private
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ratelimit-Limit: 60
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ratelimit-Remaining: 57
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ratelimit-Reset: 1665579841
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Sol: pub_site
+10-12-2022 18:33:07 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Transfer-Encoding: chunked
+10-12-2022 18:33:07 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 504 - Connection can be kept alive indefinitely
+10-12-2022 18:33:07 HTTPBuilder.java DEBUG [main] internal.RestAssuredHttpBuilder 553 - Parsing response as: text/html; charset=UTF-8
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "244[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x9c]UOs[0x9b]>[0x10][0xbd][0xfb]Sl[0xf4];[0xe4][0x12][0x5];[0xbf][0xd6][0x93][0x12]p[0xf][0xfd]s[0xeb][0x9f]is[0xe9]Q[0x91][0x16][0xd8]FHTZ;v;[0xfd][0xee][0x1d]L[0x12]c [0x99]Nu[0x81][0x9d][0xf7][0xf6][0xe9]iw[0x5][0xd9][0xc9][0xdb]Oo[0xae][0xbf]}~[0x7][0x15][0xd7]v5[0xcb][0xda][0x7]X[0xe5][0xca]\[0xa0][0x13][0xab][0x19][0x0]@V[0xa1]2[0xdd][0xeb]>[0xac][0x91][0x15][0xe8]J[0x85][0x88][0x9c][0x8b]5[0x17][0xf2]R[0xc]a[0xa7]j[0xcc][0xc5][0x86][0xf0][0xae][0xf1][0x81][0x5]h[0xef][0x18][0x1d][0xe7][0xe2][0x8e][0xc]W[0xb9][0xc1][\r]i[0x94][0xfb][0xe0][0xc][0xc8][0x11][0x93][0xb2]2je1_[0x88][0xd5][0xec][0xa0][0xc6][0xc4][0x16]W[0xd7][0xde][0xc3][0x7][0xe5]v[0xf0][0x5][0xac]1r[0xcc][0x92][0xe][0xe8]1O[0xa4][0x84][0xf7][0xde]q[0x4]){v,[0xb9][[0x8]hsa\[0x94]M[0xc0][0x2]YW[0x2][0xaa][0x80]E.[0x92][0xa4]hS[0xce][0xcb][0xc8][0x8a]I[0x9f]k_[0x8b]ar[0xc7][0xac][0x98][0x9b][0x98]>[0xf2][0xbd]/-[0xaa][0x86]b[0x9b][0x92][0xe8][0x18]_[0x17][0xaa]&[0xbb][0xcb]?[0xae][0x1d][0xb1][0x17][0xdd][0x96][0x91]w[0x16]c[0x85][0xc8]bh[0xf5][0xeb][0x1e]:[0xf6][0xba][0xa7][0x1f][0xe2]v[0xb5][\r]9[0x83][0x1b]ov[0xf0][0xeb][0x8]h[0xd7][0x8d][0xd2][0xb7]e[0xf0]kg[0xa4][0xf6][0xd6][0x87][0x14][0xfe]+[0x8a][0xe2]j[0xc4]{[0x0][0x97][0xff]/o[0x96][0x13]x{&[0xd9][0xf9]O[0xe1][0xb4];[0xc1][0xe9][0x19]D[0xe5][0xa2][0x8c][0x18][0xe8][0xa9][0x94];[0xa4][0xb2][0xe2][0x14][0x16][0xf3][0xf9][0x98]Q[0x1d][0xc0]M5[0x86]k[0x15]Jr)[0xc]2[0xcf][0x8e][0xc2][0xf3]bm[0xad][0xec][0xa4]&[\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 87 -  << "[0xf0][0xcc][0x1e]#![0x8b][[0xa9][0xd1]1[0x86][0x9]!e[0xa9]t[0x92][0x18][0xeb][0x98]B[0xc7][0x1a][6[0x14][0x1b][0xab]v)[0xb4]Zc[0xf8][0xfb]:2[0x15];y?[0xeb][0xd3]:C[[0x8d][0x8f][0xc4][0xe4][0x9d][0xc]XL[0xf8]z[0x80][0xd3]v[0x9e][0x14][0xd3][0x6][0x9f][0x97][0xd3][0xde][0xe0][0xd4][0xa0][0xf8]`0[0xc8][0xd0]U[0xeb][0xa2][0xd9]B[0xf4][0x96][0xcc][0x13]m[0x8d][0xf4][0x13]S[0xb8]X6[0x13][0x87]l[0x94]1[0xe4][0xca][0x14][0xe6][0xb0]x[0xd9]l[0xef][0x1f]c[0x1e][0xe3][0x96][0xe5][0xbe][0xaa]W[0x87][0x1a]cT[0xe5][0x94][0xf7][0x9e][0xa5][0xc5][0xe5][0xbf]m[0xf5][0xf0][0x96]%[0xbd][0x1b][0x96]%[0x87][0xef]Z[0xd6]^[0xb0][0xde]E4[0xb4][0x1]mU[0x8c][0xb9][0xe8][0xcf][0xcd]Q[0xb3]z[0x93])[0x8e][0xef]l?[0xbd]m[0xc8][0x0]n[0xd7][0x8b][0x8b]WG[0x19][0x89][0xa1][0xcd]j[0xf6][0xa4][0xca]}u[0x4][0xec][0xfd][0xe7][0xe2][0xb1][0xb][0x8b]y[0xb3][0xbd][0x9a][0xd0][0x1f]}0'v[0x9b][0x8][0xb3][0xa4]+D[0x96]t[0xff][0x83]?[0x0][0x0][0x0][0xff][0xff]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "d[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 87 -  << "[0x1][0x0][0x0][0xff][0xff]e[0x9e][0xd3][0xfd] [0x6][0x0][0x0]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "0[\r][\n]"
+10-12-2022 18:33:07 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:33:07 HTTPBuilder.java DEBUG [main] internal.RestAssuredHttpBuilder 556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+10-12-2022 18:33:12 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 107 - ************ Check Content Encoding ************
+10-12-2022 18:33:12 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 110 - Content Encoding is ==> gzip
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Could not read configuration file [Log4j.properties].
+java.io.FileNotFoundException: Log4j.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:372)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:403)
+	at com.employeeapi.base.TestBase.setup(TestBase.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+log4j:ERROR Ignoring configuration file [Log4j.properties].
+]]></system-err>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.008">
+    <failure message="expected [text/html; charset=UTF-8] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [null]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentType(TC004_Put_Employee_Record.java:90)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:12 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 85 - ************ Checking Content Type ************
+10-12-2022 18:33:12 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 88 - Content Type is ==> null
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.013">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkResponseBody(TC004_Put_Employee_Record.java:55)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:12 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1fde0371
+10-12-2022 18:33:12 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 225 - Connection can be kept alive indefinitely
+]]></system-out>
+  </testcase>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.001">
+    <failure message="expected [nginx] but found [Apache]" type="java.lang.AssertionError">java.lang.AssertionError: expected [nginx] but found [Apache]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkServerType(TC004_Put_Employee_Record.java:101)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:12 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 96 - ************ Check Server Type ************
+10-12-2022 18:33:12 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 99 - Server Type is ==> Apache
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusCode(TC004_Put_Employee_Record.java:68)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:12 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 63 - ************ Checking Status Code ************
+10-12-2022 18:33:12 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 66 - Status Code is ==> 429
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC004_Put_Employee_Record" time="0.008">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusLine(TC004_Put_Employee_Record.java:79)
+</failure>
+    <system-out><![CDATA[10-12-2022 18:33:12 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 74 - ************ Checking Status Line ************
+10-12-2022 18:33:12 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 77 - Status Line is ==> HTTP/1.1 429 Too Many Requests
+]]></system-out>
+  </testcase>
+  <testcase name="createEmployee" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0.94">
+    <failure message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.createEmployee(TC005_Delete_Employee_Record.java:36)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.createEmployee(TC005_Delete_Employee_Record.java:36)
+]]></failure>
+    <system-out><![CDATA[10-12-2022 18:33:12 TC004_Put_Employee_Record.java INFO  [main] EmployeesRestAPI 118 - ************ Finished TC004 Put_Employee_Record ************
+10-12-2022 18:33:12 TC005_Delete_Employee_Record.java INFO  [main] EmployeesRestAPI 25 - ******** Started TC005_Delete_Employee_Record **********
+10-12-2022 18:33:12 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 161 - Get connection for route {}->http://dummy.restapiexample.com:80
+10-12-2022 18:33:12 DefaultClientConnectionOperator.java DEBUG [main] conn.DefaultClientConnectionOperator 177 - Connecting to dummy.restapiexample.com:80
+10-12-2022 18:33:12 RequestAddCookies.java DEBUG [main] protocol.RequestAddCookies 123 - CookieSpec selected: ignoreCookies
+10-12-2022 18:33:12 RequestAuthCache.java DEBUG [main] protocol.RequestAuthCache 77 - Auth cache not set in the context
+10-12-2022 18:33:12 RequestTargetAuthentication.java DEBUG [main] protocol.RequestTargetAuthentication 80 - Target auth state: UNCHALLENGED
+10-12-2022 18:33:12 RequestProxyAuthentication.java DEBUG [main] protocol.RequestProxyAuthentication 89 - Proxy auth state: UNCHALLENGED
+10-12-2022 18:33:12 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 677 - Attempt 1 to execute request
+10-12-2022 18:33:12 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 274 - Sending request: GET /api/v1/employees HTTP/1.1
+10-12-2022 18:33:12 Wire.java DEBUG [main] http.wire 73 -  >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+10-12-2022 18:33:12 Wire.java DEBUG [main] http.wire 73 -  >> "Accept: */*[\r][\n]"
+10-12-2022 18:33:12 Wire.java DEBUG [main] http.wire 73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+10-12-2022 18:33:12 Wire.java DEBUG [main] http.wire 73 -  >> "Connection: Keep-Alive[\r][\n]"
+10-12-2022 18:33:12 Wire.java DEBUG [main] http.wire 73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)[\r][\n]"
+10-12-2022 18:33:12 Wire.java DEBUG [main] http.wire 73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10-12-2022 18:33:12 Wire.java DEBUG [main] http.wire 73 -  >> "[\r][\n]"
+10-12-2022 18:33:12 DefaultClientConnection.java DEBUG [main] http.headers 278 - >> GET /api/v1/employees HTTP/1.1
+10-12-2022 18:33:12 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Accept: */*
+10-12-2022 18:33:12 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Host: dummy.restapiexample.com
+10-12-2022 18:33:12 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Connection: Keep-Alive
+10-12-2022 18:33:12 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3.1)
+10-12-2022 18:33:12 DefaultClientConnection.java DEBUG [main] http.headers 281 - >> Accept-Encoding: gzip,deflate
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "HTTP/1.1 429 Too Many Requests[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Content-Encoding: gzip[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Date: Wed, 12 Oct 2022 13:03:13 GMT[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Display: staticcontent_sol[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Expires: Tue, 11 Oct 2022 13:03:13 GMT[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Pagespeed: off[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Response: 429[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Retry-After: 38[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Server: nginx/1.21.6[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Vary: Accept-Encoding,User-Agent,Origin[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "X-Endurance-Cache-Level: 2[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "X-Middleton-Display: staticcontent_sol[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "X-Middleton-Response: 429[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "X-Nginx-Cache: WordPress[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "X-Origin-Cache-Control: no-cache, private[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "X-Ratelimit-Remaining: 57[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "X-Ratelimit-Reset: 1665579831[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "X-Sol: pub_site[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "Transfer-Encoding: chunked[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 259 - Receiving response: HTTP/1.1 429 Too Many Requests
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 262 - << HTTP/1.1 429 Too Many Requests
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Content-Encoding: gzip
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Content-Type: text/html; charset=UTF-8
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Date: Wed, 12 Oct 2022 13:03:13 GMT
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Display: staticcontent_sol
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Expires: Tue, 11 Oct 2022 13:03:13 GMT
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Pagespeed: off
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Response: 429
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Retry-After: 38
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Server: nginx/1.21.6
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Vary: Accept-Encoding,User-Agent,Origin
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Endurance-Cache-Level: 2
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ezoic-Cdn: Miss
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Middleton-Display: staticcontent_sol
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Middleton-Response: 429
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Nginx-Cache: WordPress
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Origin-Cache-Control: no-cache, private
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ratelimit-Limit: 60
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ratelimit-Remaining: 57
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Ratelimit-Reset: 1665579831
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << X-Sol: pub_site
+10-12-2022 18:33:13 DefaultClientConnection.java DEBUG [main] http.headers 265 - << Transfer-Encoding: chunked
+10-12-2022 18:33:13 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 504 - Connection can be kept alive indefinitely
+10-12-2022 18:33:13 HTTPBuilder.java DEBUG [main] internal.RestAssuredHttpBuilder 553 - Parsing response as: text/html; charset=UTF-8
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "244[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x9c]UOs[0x9b]>[0x10][0xbd][0xfb]Sl[0xf4];[0xe4][0x12][0x5];[0xbf][0xd6][0x93][0x12]p[0xf][0xfd]s[0xeb][0x9f]is[0xe9]Q[0x91][0x16][0xd8]FHTZ;v;[0xfd][0xee][0x1d]L[0x12]c [0x99]Nu[0x81][0x9d][0xf7][0xf6][0xe9]iw[0x5][0xd9][0xc9][0xdb]Oo[0xae][0xbf]}~[0x7][0x15][0xd7]v5[0xcb][0xda][0x7]X[0xe5][0xca]\[0xa0][0x13][0xab][0x19][0x0]@V[0xa1]2[0xdd][0xeb]>[0xac][0x91][0x15][0xe8]J[0x85][0x88][0x9c][0x8b]5[0x17][0xf2]R[0xc]a[0xa7]j[0xcc][0xc5][0x86][0xf0][0xae][0xf1][0x81][0x5]h[0xef][0x18][0x1d][0xe7][0xe2][0x8e][0xc]W[0xb9][0xc1][\r]i[0x94][0xfb][0xe0][0xc][0xc8][0x11][0x93][0xb2]2je1_[0x88][0xd5][0xec][0xa0][0xc6][0xc4][0x16]W[0xd7][0xde][0xc3][0x7][0xe5]v[0xf0][0x5][0xac]1r[0xcc][0x92][0xe][0xe8]1O[0xa4][0x84][0xf7][0xde]q[0x4]){v,[0xb9][[0x8]hsa\[0x94]M[0xc0][0x2]YW[0x2][0xaa][0x80]E.[0x92][0xa4]hS[0xce][0xcb][0xc8][0x8a]I[0x9f]k_[0x8b]ar[0xc7][0xac][0x98][0x9b][0x98]>[0xf2][0xbd]/-[0xaa][0x86]b[0x9b][0x92][0xe8][0x18]_[0x17][0xaa]&[0xbb][0xcb]?[0xae][0x1d][0xb1][0x17][0xdd][0x96][0x91]w[0x16]c[0x85][0xc8]bh[0xf5][0xeb][0x1e]:[0xf6][0xba][0xa7][0x1f][0xe2]v[0xb5][\r]9[0x83][0x1b]ov[0xf0][0xeb][0x8]h[0xd7][0x8d][0xd2][0xb7]e[0xf0]kg[0xa4][0xf6][0xd6][0x87][0x14][0xfe]+[0x8a][0xe2]j[0xc4]{[0x0][0x97][0xff]/o[0x96][0x13]x{&[0xd9][0xf9]O[0xe1][0xb4];[0xc1][0xe9][0x19]D[0xe5][0xa2][0x8c][0x18][0xe8][0xa9][0x94];[0xa4][0xb2][0xe2][0x14][0x16][0xf3][0xf9][0x98]Q[0x1d][0xc0]M5[0x86]k[0x15]Jr)[0xc]2[0xcf][0x8e][0xc2][0xf3]bm[0xad][0xec][0xa4]&[\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 87 -  << "[0xf0][0xcc][0x1e]#![0x8b][[0xa9][0xd1]1[0x86][0x9]!e[0xa9]t[0x92][0x18][0xeb][0x98]B[0xc7][0x1a][6[0x14][0x1b][0xab]v)[0xb4]Zc[0xf8][0xfb]:2[0x15];y?[0xeb][0xd3]:C[[0x8d][0x8f][0xc4][0xe4][0x9d][0xc]XL[0xf8]z[0x80][0xd3]v[0x9e][0x14][0xd3][0x6][0x9f][0x97][0xd3][0xde][0xe0][0xd4][0xa0][0xf8]`0[0xc8][0xd0]U[0xeb][0xa2][0xd9]B[0xf4][0x96][0xcc][0x13]m[0x8d][0xf4][0x13]S[0xb8]X6[0x13][0x87]l[0x94]1[0xe4][0xca][0x14][0xe6][0xb0]x[0xd9]l[0xef][0x1f]c[0x1e][0xe3][0x96][0xe5][0xbe][0xaa]W[0x87][0x1a]cT[0xe5][0x94][0xf7][0x9e][0xa5][0xc5][0xe5][0xbf]m[0xf5][0xf0][0x96]%[0xbd][0x1b][0x96]%[0x87][0xef]Z[0xd6]^[0xb0][0xde]E4[0xb4][0x1]mU[0x8c][0xb9][0xe8][0xcf][0xcd]Q[0xb3]z[0x93])[0x8e][0xef]l?[0xbd]m[0xc8][0x0]n[0xd7][0x8b][0x8b]WG[0x19][0x89][0xa1][0xcd]j[0xf6][0xa4][0xca]}u[0x4][0xec][0xfd][0xe7][0xe2][0xb1][0xb][0x8b]y[0xb3][0xbd][0x9a][0xd0][0x1f]}0'v[0x9b][0x8][0xb3][0xa4]+D[0x96]t[0xff][0x83]?[0x0][0x0][0x0][0xff][0xff]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "d[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 87 -  << "[0x1][0x0][0x0][0xff][0xff]e[0x9e][0xd3][0xfd] [0x6][0x0][0x0]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "0[\r][\n]"
+10-12-2022 18:33:13 Wire.java DEBUG [main] http.wire 73 -  << "[\r][\n]"
+10-12-2022 18:33:13 HTTPBuilder.java DEBUG [main] internal.RestAssuredHttpBuilder 556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+10-12-2022 18:33:13 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@13275d8
+10-12-2022 18:33:13 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 225 - Connection can be kept alive indefinitely
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Could not read configuration file [Log4j.properties].
+java.io.FileNotFoundException: Log4j.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:372)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:403)
+	at com.employeeapi.base.TestBase.setup(TestBase.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+log4j:ERROR Ignoring configuration file [Log4j.properties].
+]]></system-err>
+  </testcase>
+  <testcase name="checkContentEncoding" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.employeeapi.testCases.TC005_Delete_Employee_Record" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
